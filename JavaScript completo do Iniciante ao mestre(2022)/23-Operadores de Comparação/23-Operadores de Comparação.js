@@ -10,3 +10,13 @@
     !== valores e tipos diferentes
 */
 
+let n = '25';
+let n2 = 2;
+console.log(n == n2);
+console.log(n === n2);
+console.log(n < n2);
+console.log(n > n2);
+console.log(n <= n2);
+console.log(n >= n2);
+console.log(n != n2);
+console.log(n !== n2);
