@@ -45,7 +45,6 @@ n2 = 8;
 let media = (n1 + n2) / 2;
 console.log(`media: ${media}`);
 console.log((3 * 2) ** 2)
-*/
 
 
 let n1 = prompt("Digite a 1 nota: ");
@@ -63,3 +62,6 @@ if (media <= 4) {
     console.log("Aprovado")
 }
 console.log("Fim do programa.")
+*/
+
+
