@@ -63,5 +63,3 @@ if (media <= 4) {
 }
 console.log("Fim do programa.")
 */
-
-
