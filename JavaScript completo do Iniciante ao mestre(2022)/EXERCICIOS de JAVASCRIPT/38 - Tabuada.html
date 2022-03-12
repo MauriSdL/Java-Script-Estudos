@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+</head>
+<body>
+    <!-- Pedir para o usuario informar o numero da tabuada
+        Mostrar a tabuada desse numero de 1 a 1000.
+        OBS: toda informação que vem da interface do
+        usuario é uma string -->        
+    <h1>Tabuada</h1>
+
+    <button onclick="mostrarTabuada()">Mostrar Tabuada</button>
+    <button onclick="limpar()">Limpar Tabuada</button>
+    <div id="output"></div>
+
+<script>
+    // const output é uma variavel global
+    const output = document.getElementById("output")
+
+    function mostrarTabuada(){
+        let n = parseFloat(prompt("Digite um número: "))
+
+        let msg = ""
+        //for(let i = 0; i <= 1000; i++){
+            for(let i = 1; i <= 10; i++){
+            msg += `${n} x ${i} = ${(n * i)} <br>`
+        }
+        output.innerHTML = msg
+    }
+    
+    function limpar(){
+        output.innerHTML = ""
+    }
+
+</script>
+
+</body>
+</html>
